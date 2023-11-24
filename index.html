@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+   <body>
+    <header class="text-white text-center">
+        <div class="blur">
+            <h1 class="">Technology & Cia</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <nav class="navbar">
+                <ul class="nav">
+                    <li><a class="nav-link text-warning" href="">Home</a></li>   
+                    <li><a class="nav-link text-warning" href="">About</a></li>   
+                    <li><a class="nav-link text-warning" href="">Support</a></li>   
+                    <li><a class="nav-link text-warning" href="">Contact</a></li>   
+                     <button class="btn text-warning border-">Register</button>
+            </ul>
+        </nav>
+    </div>  
+</header>
+<!-- --------------------------------------------------------------------- -->
+   
+    <div id="mobile" class="mobile m-3">
+        <div class="fundo">
+            <form action="page.php" method="post">
+                <label class="form-label h4 text-warning">Login</label>
+                  <input class="form-control" type="text" name="login" required><br>
+                <label class="form-label h4 text-warning">Password</label>
+                  <input class="form-control" type="password" name="pass" required>
+                <div class="text-center">
+                    <button class="btn bg-warning m-2 ">Send</button>
+                    <button class="btn bg-warning m-2" type="button">Register</button>
+                </div>
+            </form>
+        </div>
+        <button id="btn" class="btn-close bg-danger" onclick="closeD()"></button>
+    </div>
+
+<!-- --------------------------------------------------------------------- -->
+    <script src="app.js"></script>
+   </body>
+</html>

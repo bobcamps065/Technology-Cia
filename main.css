@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('image/SKY.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: none;
+}
+/* --------------------------------------------------------------- */
+header {
+    backdrop-filter: blur(20px);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: 0px 0px 2px black;
+}
+
+.blur {
+   backdrop-filter: blur(5px);
+}
+/* --------------------------------------------------------------- */
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo{
+    background-image: url('image/desktop.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 500px;
+    box-shadow: 0px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 20px;
+    width: 375px;
+    height: 520px;
+}
+
+input[type=text] {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 4px yellow;
+    font-size: 20px;
+    
+}
+
+input[type=password] {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 4px yellow;
+    font-size: 20px;
+    
+}
+
+#btn {
+    margin: 10px;
+    margin-top: -450px;
+}
+
+/* .text {
+    background-color: rgb(141, 246, 241);
+} */
